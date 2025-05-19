@@ -38,7 +38,7 @@ END:VCARD`
     // Create a temporary link and trigger download
     const link = document.createElement("a")
     link.href = url
-    link.download = "Helena A.vcf"
+    link.download = "Chidera.vcf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
